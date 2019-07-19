@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" ng-app = "MsgApp">
   <head>
     <meta charset="utf-8">
-    <title>Hello Angular</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Expression and Interpolation</title>
   </head>
-  <body>
-  <h1>Hey Sup? bro dd</h1>
+  <body >
+  <h1>Expression and InterpolationAng Js</h1>
+  <div ng-controller = "MsgController">
+    {{name}} has a Message for you : <br>
+    {{sayMessage()}}
+    <div >
+      <button type="button" ng-click= "feedDee()" name="button">Feed Dee</button>
+      <br>
+      <img ng-src="images/dee_{{stateOfBeing}}.jpg" alt="">
+    </div>
+  </div>
   </body>
 </html>
