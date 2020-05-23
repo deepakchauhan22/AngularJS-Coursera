@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en" ng-app="NarrowItDownApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Searching menu from API using AJAx $http Service</title>
+  </head>
+
+  <body>
+    <h2>Narrow it Down</h1><h6>Module 3 Assignment by Deepak Chauhan</h6>
+
+
+    <div ng-controller='NarrowItDownController as search'>
+      <div class="left">
+        <h3>Search Menu</h3>
+            <p>
+              <input type="text" id="searchFor" ng-model="search.searchFor" placeholder="Enter item to search for" />
+            </p>
+            <p>
+              <button class="NarrowButton" ng-click="search.search()" >Narrow It Down For Me!</button>
+            </p>
+      </div>
+      <div class="right">
+          <found-items
+          title = "Items found"
+          list = "search.found"
+          result= "{{search.searchResult}}"
+          dont-want="search.dontWant(index)"></found-items>
+      </div>
+    </div>
+
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+      <!-- <ul>
+        <li ng-repeat="category in menu.categories">
+          (<a href="" ng-click="menu.logMenuItems(category.short_name);">{{ category.short_name }}</a>)
+          {{ category.name }}
+        </li>
+      </ul> -->
+
+
+  </body>
+</html>
