@@ -4,8 +4,8 @@
 angular.module("MenuApp")
 .config(RoutesConfig);
 
-RoutesConfig.$inject = ['$stateProvider', '$locationProvider','$urlRouterProvider'];
-function RoutesConfig($stateProvider,$locationProvider, $urlRouterProvider) {
+RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+function RoutesConfig($stateProvider, $urlRouterProvider) {
   // Redirect to home page if no other URL matches
 
   $urlRouterProvider.otherwise('/');
@@ -40,10 +40,6 @@ function RoutesConfig($stateProvider,$locationProvider, $urlRouterProvider) {
           }]
         }
       });
-      //to beautify the url
-      $locationProvider.html5Mode({
-    enabled: true,
-    requireBase: false
-  });
+
     }
    })();

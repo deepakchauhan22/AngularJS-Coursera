@@ -1,3 +1,9 @@
+* {
+	outline: none;
+}
+
+
+
 body {
   font-size: 1.2em;
 }
@@ -12,6 +18,10 @@ body {
     font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
+}
+.dontWantButton:hover {
+  background-color: ##ECF0F1;
+  box-shadow: 0 3px #DAD6D8;
 
 }
 a:link, a:visited {
@@ -55,6 +65,20 @@ a:link, a:visited {
   box-shadow:
    5px 5px 5px 0 rgba(0, 0, 0, 0.25),
    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+.btn {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 10px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #DAD6D8;
 }
 
 .error {
