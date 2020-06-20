@@ -1,2 +1,4 @@
 # AngularJS-Coursera
-Angular Repo for Coursera
+
+Solution to All the Course Assignments.
+
