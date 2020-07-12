@@ -6,6 +6,6 @@ Solution to All the Course Assignments.
 > Assignment Solution FE
 
 [Module 3](https://deepakchauhan22.github.io/AngularJS-Coursera/module3-solution/) <br/>
-[Module 4](https://deepakchauhan22.github.io/AngularJS-Coursera/module4-solution/)
-[Module 5](https://deepakchauhan22.github.io/AngularJS-Coursera/module5-solution/)
+[Module 4](https://deepakchauhan22.github.io/AngularJS-Coursera/module4-solution/) <br/>
+[Module 5](https://deepakchauhan22.github.io/AngularJS-Coursera/module5-solution/) <br/>
 
